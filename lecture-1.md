@@ -61,4 +61,6 @@ The <kbd>^</kbd> in the dependency defines how the package will obe updated if y
 npm install
 ```
 
-If you re-run above will go through the packages mentioned in the package.json and install them and automatically pick a later version if available.
+If you re-run above will go through the packages mentioned in the package.json and install them and automatically pick a later version if available. 
+
+The `package-lock.json` file is a JSON file with a record of the exact version of the modules you installed. If you were to share it with others, they would get the exact version of the module and not the latest one.
