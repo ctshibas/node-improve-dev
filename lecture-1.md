@@ -54,3 +54,11 @@ On installing of the module your project now includes:
 	"nodemon": "^1.18.3"
 }
 ```
+
+The <kbd>^</kbd> in the dependency defines how the package will obe updated if you re-run
+
+```zsh
+npm install
+```
+
+If you re-run above will go through the packages mentioned in the package.json and install them and automatically pick a later version if available.
