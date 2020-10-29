@@ -1,0 +1,34 @@
+{
+  "name": "create-server",
+  "version": "1.0.0",
+  "description": "basic code to start up a server in nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "help": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctshibas/node-improve-dev.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "nodejs",
+    "javascript",
+    "app",
+    "browser",
+    "core-modules"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/node-improve-dev/issues"
+  },
+  "homepage": "https://github.com/ctshibas/node-improve-dev#readme"
+}
