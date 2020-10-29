@@ -13,6 +13,6 @@ A package that handles auto-restarts and does not need you to quit the server on
 
 The solution: ***nodemon*** (can be found on the npm site).
 We can install nodemon by the following: 
-	```properties
+	```zsh
 	foo@bar:~$ npm install nodemon
 	``` 
