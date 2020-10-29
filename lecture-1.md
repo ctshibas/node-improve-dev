@@ -17,3 +17,40 @@ We can install nodemon by the following:
 ```zsh
 npm install nodemon
 ``` 
+
+But we can save it a different way. We can divide the dependencies into:
+
+* Development Packages (nodemon is that as we use it in the dev process)
+* Production Packages
+
+We distinguish the development dependencies by:
+
+### Development dependency
+- - - - - - - - - - - - - -
+```zsh
+npm install nodemon --save-dev
+```
+
+### Production dependency
+- - - - - - - - - - - - - -
+```zsh
+npm install nodemon --save
+```
+
+### Global dependency _(anywhere on your machine...)_
+- - - - - - - - - - - - - - - - - - - - - - - - - - - 
+```zsh
+npm install nodemon -g
+```
+
+On installing of the module your project now includes:
+
+* node_modules folder
+* package-lock.json
+* dependency inclusion in the package.json file
+
+```json
+"devDependencies": {
+	"nodemon": "^1.18.3"
+}
+```
