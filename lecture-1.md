@@ -3,9 +3,9 @@
 For the local project it would include:
 - - - - - - - - - - - - - - - - - - - -
 
-(a) <Your Code>
-(b) Core Node Packages **(_fs_, _http_, etc.)**
-(c) 3rd Party Packages **(dependencies like _express_, _body-parser_, etc.)**
+(a) Your Code <br />
+(b) Core Node Packages **(_fs_, _http_, etc.)** <br />
+(c) 3rd Party Packages **(dependencies like _express_, _body-parser_, etc.)** <br />
 
 The 3rd party packages are available on the ___npm repository___ (cloud package repo), where all these packages live and you can install them using npm.
 
