@@ -62,6 +62,7 @@ SyntaxError: Unexpected identifier
 (b) Missing parentheses, leave out a curly brace in our Javascript code.
 
 ```javascript
+...
 const requestHandler = (req, res) => {
         const url = req.url;
         const method = req.method;
@@ -80,7 +81,7 @@ const requestHandler = (req, res) => {
         if (url === '/message' && method === 'POST') {
                // do something
         }
-        ...
+...
 
 } // end of requestHandler
 ```
