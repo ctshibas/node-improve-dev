@@ -55,7 +55,7 @@ On installing of the module your project now includes:
 }
 ```
 
-The <kbd>^</kbd> in the dependency defines how the package will obe updated if you re-run
+The <kbd>^</kbd> in the dependency defines how the package will be updated if you re-run
 
 ```zsh
 npm install
