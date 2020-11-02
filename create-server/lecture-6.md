@@ -1,7 +1,7 @@
 # Module Summary: Debugging
 - - - - - - - - - - - - - - - - 
 
-## NPM
+## NPM (Node Package Manager)
 - - - - - - - - - - - - - - - -
 * Stands for node package manager and manages the project & dependencies. Also adds to the ```package.json``` file and can include scripts/shortcuts to help with running the node project:
 
