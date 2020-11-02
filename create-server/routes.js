@@ -15,6 +15,7 @@ const requestHandler = (req, res) => {
                 return res.end(); // end of the response
         }
 
+        // inserting in new code
         if (url === '/message' && method === 'POST') {
                 const body = [];
                 // listening to data events with .on() method
